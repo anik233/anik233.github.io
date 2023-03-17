@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  
+  
+execute: 
+  freeze: true
+
+website:
+  title: "Anik"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - file: "./achievements.qmd"
+        text: Achievments
+    right: 
+      - icon: linkedin
+        href: www.linkedin.com
+      - icon: twitter
+        href: www.twitter.com
+
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: vapor
+    css: styles.css
+    toc: true
+
+editor: visual
+

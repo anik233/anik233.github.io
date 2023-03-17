@@ -1,0 +1,22 @@
+---
+title: "About"
+about:
+  template: jolla
+  image: sanch.jpeg
+  image-width: 10cm
+  image-shape: round
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/anik233
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/anik-singh-dhaliwal-62453b221/
+---
+
+Goat
+
+
+## Education
+
+UCL
